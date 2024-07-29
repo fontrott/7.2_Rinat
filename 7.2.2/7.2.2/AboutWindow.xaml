@@ -1,0 +1,21 @@
+﻿<Window x:Class="_7._2._2.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="_7._2._2.AboutWindow"
+        mc:Ignorable="d"
+        Title="About the program" Height="450" Width="450">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF0010FF"/>
+            <GradientStop Color="#FF9400FF" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="0,200,0,0">
+        <Label Content="Performed by: Khamzin Rinat Maratovich" HorizontalAlignment="Left" Margin="36,-155,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" Opacity="1"/>
+        <Label Content="Specialty: Information Systems and Programming" HorizontalAlignment="Left" Margin="37,-114,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White" Opacity="1"/>
+        <Button Content="Exit" HorizontalAlignment="Center" Height="38" Margin="0,171,0,0" VerticalAlignment="Top" Width="130" Click="Button_Click" FontSize="18" Background="#FF8701FF" BorderBrush="#FF0033FF" Foreground="White"/>
+
+    </Grid>
+</Window>
